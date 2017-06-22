@@ -11,7 +11,7 @@ filetype plugin indent on    " required
 " Settings
 "
 set noerrorbells                " No beeps
-set number                      " Show line numbers
+" set number                      " Show line numbers
 set backspace=indent,eol,start  " Makes backspace key more powerful.
 set showcmd                     " Show me what I'm typing
 set showmode                    " Show current mode.
@@ -114,7 +114,7 @@ inoremap <C-U> <C-G>u<C-U>
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
-  set mouse=a
+  " set mouse=a
 endif
 
 " If linux then set ttymouse
